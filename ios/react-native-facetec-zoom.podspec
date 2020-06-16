@@ -5,10 +5,11 @@ Pod::Spec.new do |s|
   s.name          = package['name']
   s.version       = package["version"]
   s.summary       = package['description']
+  s.authors       = package['author']
   s.requires_arc  = true
   s.license       = package["license"]
-  s.homepage      = package["homepage"]
-  s.source        = { :git => 'https://github.com/tradle/react-native-facetec-zoom.git' }
+  s.homepage      = "https://github.com/tradle/react-native-facetec-zoom"
+  s.source        = { :git => 'https://github.com/tradle/react-native-facetec-zoom.git', :branch: 'master' }
   s.platform      = :ios, '7.0'
   s.dependency      'React'
 
