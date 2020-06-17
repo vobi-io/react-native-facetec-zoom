@@ -13,10 +13,6 @@ Pod::Spec.new do |s|
   s.platform      = :ios, '7.0'
   s.dependency      'React'
   s.dependency      'ZoomAuthentication'
-
-  s.subspec 'Core' do |ss|
-    # ss.dependency     'RNReactNativeZoomSdk'
-    ss.source_files = '*.{h,m}'
-  end
+  s.source_files = '*.{h,m}'
 
 end
